@@ -1,0 +1,8 @@
+# Godot specific
+.import/
+*.translation
+
+# OS specific
+.directory
+Thumbs.db
+.DS_Store

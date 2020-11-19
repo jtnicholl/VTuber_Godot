@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "Avatar",
+"language": "GDScript",
+"path": "res://core/Avatar.gd"
+} ]
+_global_script_class_icons={
+"Avatar": ""
+}
+
+[application]
+
+config/name="VTuber Godot"
+run/main_scene="res://avatars/godette/Stage.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Settings="*res://core/Settings.gd"
+
+[rendering]
+
+environment/default_clear_color=Color( 1, 0, 1, 1 )
+environment/default_environment="res://default_env.tres"
