@@ -1,7 +1,7 @@
 # VTuber_Godot
 VTuber_Godot is a Godot-based, free and open source, from-scratch reimplementation of the Unity project used by [VTuber_Unity](https://github.com/kwea123/VTuber_Unity).
 
-This application not track your face on its own, it recieves tracking data over TCP from VTuber_Unity's Python script.
+This application does not track your face on its own, it recieves tracking data over TCP from VTuber_Unity's Python script.
 
 # Usage
 This is used the exact same way. Follow the instructions for VTuber_Unity and simply swap out the Unity application for this Godot project. Godot 3.2 is required to run.
@@ -17,8 +17,6 @@ Note that your character can be in 2D. I have not included an example of a 2D ch
 
 # Notes
 The example avatar does not have any animations for the face. This is simply because the model I used didn't come with any, and I didn't bother to add them since it's just for an example. You will probably want some for your own character.
-
-I also might have gotten `eye_pitch` and `eye_yaw` switched around, not sure. Couldn't really test them. Sorry.
 
 # Credits
 The character model is from Sketchfab user quirkysketchman, released under Creative Commons Attribution. [Source](https://sketchfab.com/3d-models/godette-chan-5e5dd8978e21431f992dee953c11558d)

@@ -4,9 +4,9 @@ const NECK_BONE_ID = 6
 const HEAD_BONE_ID = 7
 
 func set_values(roll: float, pitch: float, yaw: float, min_ear: float, mar: float, mdist: float, \
-		eye_pitch: float, eye_yaw: float) -> void:
+			eye_yaw: float, eye_pitch: float) -> void:
 	_pose_body(roll, pitch, yaw)
-	_pose_face(min_ear, mar, mdist, eye_pitch, eye_yaw)
+	_pose_face(min_ear, mar, mdist, eye_yaw, eye_pitch)
 
 
 func _pose_body(roll: float, pitch: float, yaw: float) -> void:
