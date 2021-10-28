@@ -3,6 +3,10 @@ VTuber_Godot is a Godot-based, free and open source, from-scratch reimplementati
 
 This application does not track your face on its own, it recieves tracking data over TCP from VTuber_Unity's Python script.
 
+I originally created this with the intention of gradually adding on to it and creating a full-featured application. However, since then, [OpenSeeFace GD](https://github.com/you-win/openseeface-gd) was created, which is making fast progress and uses a better tracker. If you are looking for an open source VTubing application, I would reccomend you head there.
+
+Since this will not be updated further, it has been archived.
+
 # Usage
 This is used the exact same way. Follow the instructions for VTuber_Unity and simply swap out the Unity application for this Godot project. Godot 3.2 is required to run.
 
